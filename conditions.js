@@ -18,9 +18,9 @@ const numberInput1 = prompt("Enter a number:");
 if (numberInput1 > 0) {
   console.log("The number is positive.");
 } else if (numberInput1 < 0) {
-  console.log("The number is zero.");
-} else {
   console.log("The number is negative.");
+} else {
+  console.log("The number is zero.");
 }
 
 const numberInput2 = prompt("Enter another number:");
