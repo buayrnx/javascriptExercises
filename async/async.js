@@ -18,7 +18,6 @@ document.getElementById('userForm').addEventListener('submit',
     errorElement.style.display = 'none';
     userProfile.style.display = 'none';
 
-
     try {
       const response = await fetch(`https://api.github.com/users/${username}`, {
         headers: {
@@ -38,7 +37,6 @@ document.getElementById('userForm').addEventListener('submit',
       following.textContent = `${data.following} following `;
       fullName.textContent = data.name || 'no name';
       description.textContent = data.bio || 'no description';
-
 
       loadingElement.style.display = 'none';
       userProfile.style.display = 'block';
