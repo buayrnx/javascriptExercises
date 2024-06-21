@@ -1,0 +1,80 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: black;
+  color: #666E77;
+}
+
+.user-profile-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  margin: auto;
+  padding: 20px;
+}
+
+.username-input, .search-button{
+  border: 1px solid #666E77;
+  border-radius: 4px;
+  padding: 4px 6px;
+  color: #666E77;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.username-input{
+  margin-right: 6px;
+}
+
+.username-input:focus{
+  outline: none;
+  background-color: black;
+}
+
+.search-button:hover{
+  background-color: #666E77;
+  color: black;
+}
+
+.user-photo{
+  width: 260px;
+  height: 260px;
+  border: none;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.full-name{
+  font-size: 24px;
+  font-weight: 600;
+  color: #E6EDF3;
+}
+
+.username{
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: -24px;
+}
+
+.user-info{
+  display: flex;
+  align-items: center;
+}
+
+.description{
+  font-size: 16px;
+  color: #E6EDF3;
+  margin-top: -10px;
+}
+
+.follow-info{
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.recent-repos{}
+
+.recent-repos-title{}
+
+.repo-list{}
